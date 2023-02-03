@@ -1,46 +1,55 @@
 from django.db import models
+
+from django.db import models
 from cloudinary.models import CloudinaryField
-from apps.categories.models import Categories
+from apps.categories.models import Category
+# Create your models here.
+
 
 class Movie(models.Model):
-    MY_CHOICES= (
-        ("Newly Released", "Newly Released"), ("Upcoming Movies", "Upcoming Movies")
+    MY_CHOICES = (
+        ('Newly Released', 'Newly Released'),
+        ('Coming Soon', 'Coming Soon')
     )
+
     class Meta(object):
-        db_table='movie'
-    name= models.CharField(
-        "Name", blank= False, null= False, max_length= 50
+        db_table = 'movie'
+    name = models.CharField(
+        'Name', blank=False, null=False, max_length=50, db_index=True
     )
-    description= models.TextField(
-        "Description", blank= False, null= False, max_length= 500
+    description = models.TextField(
+        'description', blank=False, null=False, max_length=500
     )
-    movie_duration= models.IntegerField(
-        "Movie Duration", blank= False, null= False, default= 60
+    image = CloudinaryField(
+        'image', blank=True, null=True
     )
-    image= CloudinaryField(
-        "Image", blank= False, null= False
+    image_mobile = CloudinaryField(
+        'image mobile', blank=True, null=True
     )
-    trailer_link= models.URLField(
-        "Trailer Link", blank= False, null= False
+    movie_duration = models.IntegerField(
+        'duration', blank=False, null=False, default=45
     )
-    category_id= models.ForeignKey(
-        Categories, on_delete= models.CASCADE
+    state = models.CharField(
+        'state', blank=False, null=False, max_length=50, default='USA'
     )
-    state= models.CharField(
-        "State", blank= False, null= False, max_length= 50
+    release_type = models.CharField(
+        'release_type', blank=False, null=False, max_length=50, choices=MY_CHOICES
     )
-    ratings= models.IntegerField(
-        "Rating", blank= False, null= False
+    category_id = models.ForeignKey(
+        Category, on_delete=models.CASCADE
     )
-    release_type= models.CharField(
-        "Released Type", blank= False, null= False, max_length= 50, choices= MY_CHOICES
+    rating = models.IntegerField(
+        'rating', blank=False, null=False
     )
-    released_date= models.IntegerField(
-        "Released Date", blank= False, null= False
+    release_date = models.IntegerField(
+        'release date', blank=False, null=False
     )
-    created_at= models.DateTimeField(
-        "Created At", blank= False, null= False, auto_now_add=True
+    trailer_link = models.CharField(
+        'Trailer Link', blank=False, null=False, max_length=500
     )
-    updated_at= models. DateTimeField(
-        "Updated At", blank= False, null= False, auto_now=True
+    created_at = models.DateTimeField(
+        'Created Datetime', blank=True, auto_now_add=True
+    )
+    updated_at = models.DateTimeField(
+        'Updated Datetime', blank=True, auto_now=True
     )

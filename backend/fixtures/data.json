@@ -1,0 +1,1504 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2022-12-05T19:13:31.652Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Action",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2022-12-05T19:15:09.818Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Movie object (1)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2022-12-05T19:18:22.465Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Movie object (1)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2022-12-05T23:15:42.778Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Movie object (2)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2022-12-05T23:16:11.434Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Movie object (3)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2022-12-06T21:07:55.571Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Movie object (2)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2022-12-06T21:08:05.252Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Movie object (3)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2022-12-06T21:08:17.770Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Action",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2022-12-06T21:12:44.750Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Newly Released",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2022-12-06T21:12:55.853Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Animated",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2022-12-06T21:13:04.884Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Romance",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2022-12-06T21:13:14.804Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Crime",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2022-12-06T21:14:55.729Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Movie object (4)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2022-12-06T21:17:21.057Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Movie object (5)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2022-12-06T21:19:18.197Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Movie object (6)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2022-12-06T21:24:47.380Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Movie object (7)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2022-12-06T21:45:23.540Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Movie object (4)",
+      "action_flag": 2,
+      "change_message": [
+        {
+          "changed": {
+            "fields": [
+              "Image",
+              "Image mobile"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2022-12-06T21:49:57.755Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "Movie object (8)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2022-12-06T21:52:07.391Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "Movie object (9)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2022-12-06T21:54:13.238Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Movie object (10)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2022-12-06T21:56:43.283Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "Movie object (11)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2022-12-06T21:58:34.083Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "Movie object (12)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2022-12-06T22:10:54.865Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "Movie object (13)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2022-12-06T22:16:40.459Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Movie object (4)",
+      "action_flag": 2,
+      "change_message": [
+        {
+          "changed": {
+            "fields": [
+              "Category id"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2022-12-06T22:19:08.088Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Movie object (4)",
+      "action_flag": 2,
+      "change_message": [
+        {
+          "changed": {
+            "fields": [
+              "Category id"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2022-12-06T22:19:33.335Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Movie object (4)",
+      "action_flag": 2,
+      "change_message": [
+        {
+          "changed": {
+            "fields": [
+              "Category id"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2022-12-06T22:33:07.142Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Movie object (4)",
+      "action_flag": 2,
+      "change_message": []
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2022-12-06T22:36:26.658Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "14",
+      "object_repr": "Movie object (14)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2022-12-06T22:38:08.855Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "15",
+      "object_repr": "Movie object (15)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2022-12-06T22:39:59.103Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "16",
+      "object_repr": "Movie object (16)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2022-12-06T22:41:34.371Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "17",
+      "object_repr": "Movie object (17)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2022-12-06T22:44:25.724Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "18",
+      "object_repr": "Movie object (18)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2022-12-06T22:49:54.731Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "15",
+      "object_repr": "Movie object (15)",
+      "action_flag": 2,
+      "change_message": [
+        {
+          "changed": {
+            "fields": [
+              "Release_type"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2022-12-06T23:12:01.058Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "19",
+      "object_repr": "Movie object (19)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2022-12-06T23:15:04.271Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "20",
+      "object_repr": "Movie object (20)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2022-12-06T23:17:10.726Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "21",
+      "object_repr": "Movie object (21)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2022-12-06T23:18:40.016Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "22",
+      "object_repr": "Movie object (22)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2022-12-06T23:20:29.740Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "23",
+      "object_repr": "Movie object (23)",
+      "action_flag": 1,
+      "change_message": [
+        {
+          "added": {}
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2022-12-07T19:30:49.039Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "18",
+      "object_repr": "Movie object (18)",
+      "action_flag": 2,
+      "change_message": []
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2022-12-07T19:31:14.618Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "18",
+      "object_repr": "Movie object (18)",
+      "action_flag": 2,
+      "change_message": []
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2022-12-07T19:47:45.467Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "19",
+      "object_repr": "Movie object (19)",
+      "action_flag": 2,
+      "change_message": [
+        {
+          "changed": {
+            "fields": [
+              "Image",
+              "Image mobile"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2022-12-07T21:24:12.922Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Newly Released",
+      "action_flag": 2,
+      "change_message": []
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add category",
+      "content_type": 7,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change category",
+      "content_type": 7,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete category",
+      "content_type": 7,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view category",
+      "content_type": 7,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add movie",
+      "content_type": 8,
+      "codename": "add_movie"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change movie",
+      "content_type": 8,
+      "codename": "change_movie"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete movie",
+      "content_type": 8,
+      "codename": "delete_movie"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view movie",
+      "content_type": 8,
+      "codename": "view_movie"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$eEu3JMbymshMASnQuSrv5D$Vo0w9o1YdHRO2wsStKkUkaljOe5RsC7TG64sFtNBjxQ=",
+      "last_login": "2022-12-05T19:02:47.982Z",
+      "is_superuser": true,
+      "username": "sandeep",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-12-05T19:02:08.411Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "categories",
+      "model": "category"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "movies",
+      "model": "movie"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "8uzjsvmb02lxank3p7qvwi3djr744rv2",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGlmb9RdKes5g2d41DiBHipMKcXcSKQUU08x7M28R4rrUsHaew0jiIgZx-u1SzE9uO6BHbPdJ5qkt85jkrsiDdnmbiF_Xw_07qLHXba2cZQfkgSICIDBiUeCKwrMlrQwqs4UZKA_R6Uxe-ZK089Zo7RKKzxe0nDam:1p2Gjn:U16JU2mu61VnxucoQy3XS8ZHULpbPVxkg8Bcm_JdEzQ",
+      "expire_date": "2022-12-19T19:02:47.983Z"
+    }
+  },
+  {
+    "model": "categories.category",
+    "pk": 1,
+    "fields": {
+      "name": "Newly Released",
+      "created_at": "2022-12-06T21:12:44.748Z",
+      "updated_at": "2022-12-07T21:24:12.921Z"
+    }
+  },
+  {
+    "model": "categories.category",
+    "pk": 2,
+    "fields": {
+      "name": "Animated",
+      "created_at": "2022-12-06T21:12:55.851Z",
+      "updated_at": "2022-12-06T21:12:55.851Z"
+    }
+  },
+  {
+    "model": "categories.category",
+    "pk": 3,
+    "fields": {
+      "name": "Romance",
+      "created_at": "2022-12-06T21:13:04.882Z",
+      "updated_at": "2022-12-06T21:13:04.882Z"
+    }
+  },
+  {
+    "model": "categories.category",
+    "pk": 4,
+    "fields": {
+      "name": "Crime",
+      "created_at": "2022-12-06T21:13:14.803Z",
+      "updated_at": "2022-12-06T21:13:14.803Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 4,
+    "fields": {
+      "name": "TENET",
+      "description": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+      "image": "image/upload/v1670363122/fmkgytggfzamm9eogyxb.png",
+      "image_mobile": "image/upload/v1670363123/dojvvjvuglh4cqcft4x3.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Newly Released",
+      "category_id": 1,
+      "rating": 7,
+      "release_date": 2020,
+      "trailer_link": "https://www.youtube.com/watch?v=AZGcmvrTX9M",
+      "created_at": "2022-12-06T21:14:55.727Z",
+      "updated_at": "2022-12-06T22:33:07.140Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 5,
+    "fields": {
+      "name": "Iron Man 4",
+      "description": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+      "image": "image/upload/v1670361439/ikue2ifotqww0s1mfrz9.png",
+      "image_mobile": "image/upload/v1670361440/p5rnb8mhtdj60fp9wtks.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Newly Released",
+      "category_id": 1,
+      "rating": 8,
+      "release_date": 2022,
+      "trailer_link": "https://www.youtube.com/watch?v=ivx5pB7i1EM",
+      "created_at": "2022-12-06T21:17:21.055Z",
+      "updated_at": "2022-12-06T21:17:21.055Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 6,
+    "fields": {
+      "name": "Maze Runner",
+      "description": "Young hero Thomas embarks on a mission to find a cure for a deadly disease known as \"The Flare\".",
+      "image": "image/upload/v1670361556/hgaybtumacp9sq722ttn.png",
+      "image_mobile": "image/upload/v1670361557/pxhznctsk8qwrufoavel.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Newly Released",
+      "category_id": 1,
+      "rating": 8,
+      "release_date": 2018,
+      "trailer_link": "https://www.youtube.com/watch?v=AwwbhhjQ9Xk",
+      "created_at": "2022-12-06T21:19:18.194Z",
+      "updated_at": "2022-12-06T21:19:18.194Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 7,
+    "fields": {
+      "name": "12 strong",
+      "description": "12 Strong tells the story of the first Special Forces team deployed to Afghanistan after 9/11; under the leadership of a new captain, the team must work with an Afghan warlord to take down the Taliban.",
+      "image": "image/upload/v1670361885/feedfzt7327cw8t4mqea.png",
+      "image_mobile": "image/upload/v1670361886/s37tz5q67i947dgmhpkf.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Newly Released",
+      "category_id": 1,
+      "rating": 8,
+      "release_date": 2018,
+      "trailer_link": "https://www.youtube.com/watch?v=Zxag9p-63RU",
+      "created_at": "2022-12-06T21:24:47.378Z",
+      "updated_at": "2022-12-06T21:24:47.378Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 8,
+    "fields": {
+      "name": "Battleship",
+      "description": "A fleet of ships is forced to do battle with an armada of unknown origins in order to discover and thwart their destructive goals.",
+      "image": "image/upload/v1670363396/zib9disvz5ycxbolzyuo.png",
+      "image_mobile": "image/upload/v1670363397/cfwzskrg44qbrgymkpzu.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Newly Released",
+      "category_id": 1,
+      "rating": 7,
+      "release_date": 2014,
+      "trailer_link": "youtube.com/watch?v=cp3646Zf8rg",
+      "created_at": "2022-12-06T21:49:57.752Z",
+      "updated_at": "2022-12-06T21:49:57.752Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 9,
+    "fields": {
+      "name": "Madagaskar",
+      "description": "A group of animals who have spent all their life in a New York zoo end up in the jungles of Madagascar, and must adjust to living in the wild",
+      "image": "image/upload/v1670363526/hf3pzavsqbqcuavmpixp.png",
+      "image_mobile": "image/upload/v1670363526/qmoy1jqpufcglm1dxrxp.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Newly Released",
+      "category_id": 2,
+      "rating": 8,
+      "release_date": 2004,
+      "trailer_link": "https://www.youtube.com/watch?v=orAqhC-Hp_o",
+      "created_at": "2022-12-06T21:52:07.389Z",
+      "updated_at": "2022-12-06T21:52:07.389Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 10,
+    "fields": {
+      "name": "Hump",
+      "description": "A wide-eyed camel is joined by a cunning desert fox and a mistrusting goat on his epic journey to cross the Arabian desert in order to find its best friend.",
+      "image": "image/upload/v1670363652/m3m1e14p8d7xx12dhqwl.png",
+      "image_mobile": "image/upload/v1670363652/tkkjl5ieadnfj1iuppe9.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Newly Released",
+      "category_id": 2,
+      "rating": 8,
+      "release_date": 2004,
+      "trailer_link": "https://www.youtube.com/watch?v=AXcdFhmdP0M",
+      "created_at": "2022-12-06T21:54:13.237Z",
+      "updated_at": "2022-12-06T21:54:13.237Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 11,
+    "fields": {
+      "name": "Aladin",
+      "description": "Since he was a child, Aladin Chatterjee has been teased for his fairytale name. As a college student he follows his namesake's footsteps; unleashing genie Genius and wooing exchange student Jasmine. But the evil Ringmaster approaches.",
+      "image": "image/upload/v1670363802/kl45thpxvremaqwqcm6s.png",
+      "image_mobile": "image/upload/v1670363802/mpocuymb1iy4ynl6eouc.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Newly Released",
+      "category_id": 2,
+      "rating": 8,
+      "release_date": 2009,
+      "trailer_link": "https://www.youtube.com/watch?v=VcBllhVj1eA",
+      "created_at": "2022-12-06T21:56:43.281Z",
+      "updated_at": "2022-12-06T21:56:43.281Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 12,
+    "fields": {
+      "name": "100% Wolf",
+      "description": "100% Wolf centers on Freddy Lupin, heir to a proud family line of werewolves. Positive he'll become the most fearsome werewolf ever, Freddy is in for a shock when his first \"warfing\" goes awry, turning him into a ferocious - poodle.",
+      "image": "image/upload/v1670363913/fwn11mynecuxjgqovh9g.png",
+      "image_mobile": "image/upload/v1670363913/hpaou4kaawbh7mpb5dqn.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Newly Released",
+      "category_id": 2,
+      "rating": 8,
+      "release_date": 2020,
+      "trailer_link": "https://www.youtube.com/watch?v=CcuodcWK2-s",
+      "created_at": "2022-12-06T21:58:34.082Z",
+      "updated_at": "2022-12-06T21:58:34.082Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 13,
+    "fields": {
+      "name": "BIG HERO 5",
+      "description": "A story about the bond that develops between Baymax, a plus-sized inflatable robot, and prodigy Hiro Hamada. When a devastating event befalls the city of San Fransokyo and catapults Hiro into the midst of danger, he turns to Baymax and his close friends adrenaline junkie Go Go Tomago, neatnik Wasabi, chemistry whiz Honey Lemon and fanboy Fred. Determined to unc",
+      "image": "image/upload/v1670364653/x5ngduyrhgnxsbprgec6.png",
+      "image_mobile": "image/upload/v1670364654/y0ej6yyud0uxsh76qrdy.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Newly Released",
+      "category_id": 2,
+      "rating": 9,
+      "release_date": 2014,
+      "trailer_link": "https://www.youtube.com/watch?v=7xidOWnzSu4",
+      "created_at": "2022-12-06T22:10:54.864Z",
+      "updated_at": "2022-12-06T22:10:54.864Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 14,
+    "fields": {
+      "name": "Titanic",
+      "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+      "image": "image/upload/v1670366185/juygrpbxu1g8pviov3ud.png",
+      "image_mobile": "image/upload/v1670366186/km44sw43hgra8x5lnetz.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Coming Soon",
+      "category_id": 3,
+      "rating": 8,
+      "release_date": 1997,
+      "trailer_link": "https://www.youtube.com/watch?v=kVrqfYjkTdQ",
+      "created_at": "2022-12-06T22:36:26.655Z",
+      "updated_at": "2022-12-06T22:36:26.655Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 15,
+    "fields": {
+      "name": "A star is born",
+      "description": "A musician helps a young singer find fame as age and alcoholism send his own career into a downward spiral.",
+      "image": "image/upload/v1670366287/uadbhm2kgwmeec3hj6oq.png",
+      "image_mobile": "image/upload/v1670366288/ei9keb0n86kqnd1q1v5r.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Coming Soon",
+      "category_id": 3,
+      "rating": 7,
+      "release_date": 2018,
+      "trailer_link": "https://www.youtube.com/watch?v=nSbzyEJ8X9E",
+      "created_at": "2022-12-06T22:38:08.851Z",
+      "updated_at": "2022-12-06T22:49:54.729Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 16,
+    "fields": {
+      "name": "I love philip Moris",
+      "description": "A cop turns con man once he comes out of the closet. Once imprisoned, he meets the second love of his life, whom he'll stop at nothing to be with.",
+      "image": "image/upload/v1670366398/elkwdx7k9ybenhxviy9s.png",
+      "image_mobile": "image/upload/v1670366398/zhlzzdiryciopa2uajn9.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Coming Soon",
+      "category_id": 3,
+      "rating": 7,
+      "release_date": 2008,
+      "trailer_link": "https://www.youtube.com/watch?v=01dljIcgiMw",
+      "created_at": "2022-12-06T22:39:59.101Z",
+      "updated_at": "2022-12-06T22:39:59.101Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 17,
+    "fields": {
+      "name": "The vow",
+      "description": "A look at the experiences of the members of the NXIVM, an organization and sex cult that made headlines for being charged with sex trafficking, racketeering, and conspiracy.",
+      "image": "image/upload/v1670366493/dkneoqjfowtkvnbdjnze.png",
+      "image_mobile": "image/upload/v1670366493/ayeygaiodletxqhn9dzu.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Coming Soon",
+      "category_id": 3,
+      "rating": 9,
+      "release_date": 2020,
+      "trailer_link": "https://www.youtube.com/watch?v=PcL24s-S6ns",
+      "created_at": "2022-12-06T22:41:34.370Z",
+      "updated_at": "2022-12-06T22:41:34.370Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 18,
+    "fields": {
+      "name": "Safe haven",
+      "description": "A young woman with a mysterious past lands in Southport, North Carolina where her bond with a widower forces her to confront the dark secret that haunts her.",
+      "image": "image/upload/v1670366664/yl2cvkj71d4vm52wm6y8.png",
+      "image_mobile": "image/upload/v1670366665/vl3u4rq9l44yes0j8tyn.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Coming Soon",
+      "category_id": 3,
+      "rating": 8,
+      "release_date": 2013,
+      "trailer_link": "https://www.youtube.com/watch?v=p4vhm3_-3VM",
+      "created_at": "2022-12-06T22:44:25.721Z",
+      "updated_at": "2022-12-07T19:31:14.616Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 19,
+    "fields": {
+      "name": "i m your woman",
+      "description": "In this 1970s set crime drama, a woman is forced to go on the run after her husband betrays his partners, sending her and her baby on a dangerous journey.",
+      "image": "image/upload/v1670442464/v8qvcxs2zsf4zbhrwh5r.png",
+      "image_mobile": "image/upload/v1670442465/binf9izvnfp6rgoqhnwn.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Coming Soon",
+      "category_id": 4,
+      "rating": 7,
+      "release_date": 2011,
+      "trailer_link": "https://www.youtube.com/watch?v=fAveuCPBYSw",
+      "created_at": "2022-12-06T23:12:01.055Z",
+      "updated_at": "2022-12-07T19:47:45.464Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 20,
+    "fields": {
+      "name": "marauders",
+      "description": "When a bank is hit by a brutal heist, all evidence points to the owner and his high-powered clients. But as a group of FBI agents dig deeper into the case - and the deadly heists continue - it becomes clear that a larger conspiracy is at play.",
+      "image": "image/upload/v1670368503/owt3oklfyzaki5xtjgkn.png",
+      "image_mobile": "image/upload/v1670368503/gwhe39cnafuxkryjsm6a.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Coming Soon",
+      "category_id": 4,
+      "rating": 7,
+      "release_date": 2009,
+      "trailer_link": "https://www.youtube.com/watch?v=sIZ6lOV_ibk",
+      "created_at": "2022-12-06T23:15:04.270Z",
+      "updated_at": "2022-12-06T23:15:04.270Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 21,
+    "fields": {
+      "name": "king of crime",
+      "description": "When the biggest player in British cyber-crime faces destruction by some deadly serious Islamic extremists, he knows it's time to settle old scores and play the biggest scam of his life - before bailing out f",
+      "image": "image/upload/v1670368629/syc1vcjy6sjx5rqkcksr.png",
+      "image_mobile": "image/upload/v1670368630/b4arjgzrqimmgvhseuf6.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Coming Soon",
+      "category_id": 4,
+      "rating": 9,
+      "release_date": 2022,
+      "trailer_link": "https://www.youtube.com/watch?v=ZvNWbAPNc2E",
+      "created_at": "2022-12-06T23:17:10.724Z",
+      "updated_at": "2022-12-06T23:17:10.724Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 22,
+    "fields": {
+      "name": "The girl Dragon Tattoo",
+      "description": "Journalist Mikael Blomkvist is aided in his search for a woman who has been missing for 40 years by young computer hacker Lisbeth Salander.",
+      "image": "image/upload/v1670368718/qt4xxpputalxyteh7igi.png",
+      "image_mobile": "image/upload/v1670368719/hhh8teohcuytb9gxx5fu.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Coming Soon",
+      "category_id": 4,
+      "rating": 8,
+      "release_date": 2009,
+      "trailer_link": "https://www.youtube.com/watch?v=DqQe3OrsMKI",
+      "created_at": "2022-12-06T23:18:40.014Z",
+      "updated_at": "2022-12-06T23:18:40.014Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 23,
+    "fields": {
+      "name": "Gamer",
+      "description": "Journalist Mikael Blomkvist is aided in his search for a woman who has been missing for 40 years by young computer hacker Lisbeth Salander.",
+      "image": "image/upload/v1670368828/hihyfzqx3octnywwtx0g.png",
+      "image_mobile": "image/upload/v1670368829/kylm1rwyimnnlnx24qj4.png",
+      "movie_duration": 45,
+      "state": "USA",
+      "release_type": "Coming Soon",
+      "category_id": 4,
+      "rating": 8,
+      "release_date": 2009,
+      "trailer_link": "https://www.youtube.com/watch?v=Cn3iDcKK1ec",
+      "created_at": "2022-12-06T23:20:29.737Z",
+      "updated_at": "2022-12-06T23:20:29.737Z"
+    }
+  }
+]

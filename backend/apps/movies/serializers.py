@@ -1,12 +1,10 @@
-from django.forms import ImageField
-from rest_framework import serializers
 from .models import Movie
+from rest_framework import serializers
+
 
 class MovieSerializer(serializers.ModelSerializer):
-    Image = serializers.ImageField(
-        allow_null = True
-    )
+    image = serializers.ImageField(allow_null=True)
 
     class Meta:
         model = Movie
-        feilds = "__all__"
+        fields = '__all__'

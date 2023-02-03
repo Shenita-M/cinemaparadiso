@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-import django_heroku
 import cloudinary
 import cloudinary.uploader
 import cloudinary.api
@@ -29,27 +28,26 @@ SECRET_KEY = 'django-insecure-ov#r^^&xv&^0vmc(zj&h_t^$*52@8jicn=%*z*@s-=li!s_p@=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'forum-prod-api.herokuapp.com']
-CORS_ALLOW_ALL_ORIGINS = False
-CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://127.0.0.1:3000', 'https://forum-prod-frontend.herokuapp.com']
-
+ALLOWED_HOSTS = []
+X_FRAME_OPTIONS = '*'
+CORS_ALLOW_ALL_ORIGINS = True
+CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1:8000/', 'http://0.0.0:3000']
 # Application definition
 
 INSTALLED_APPS = [
     # To allow CORS (Cross-origin resource sharing)
-    'corsheaders',
-    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.posts',
     'cloudinary',
     'django_filters',
+    'corsheaders',
+    'rest_framework',
     'apps.categories',
-    'apps.movies',
+    'apps.movies'
 ]
 
 MIDDLEWARE = [
@@ -109,7 +107,6 @@ DATABASES = {
 }
 
 # Heroku PostgreSQL Database
-django_heroku.settings(locals())
 
 
 # Password validation
@@ -157,9 +154,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 cloudinary.config(
-    cloud_name="techis",
-    api_key="886187759951178",
-    api_secret="WGcWrWfkPlxdOCdlFaLTdjSNtfo",
+    cloud_name="dmhdtstvg",
+    api_key="264142828564278",
+    api_secret="-qA5XgcbMpcsfG-DJQ-2ybN7ZIU",
     secure=True
 )
 
